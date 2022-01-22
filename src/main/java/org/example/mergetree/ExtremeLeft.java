@@ -3,6 +3,8 @@ package org.example.mergetree;
 public class ExtremeLeft {
 
     public static void main(String[] args) {
+        int [] arr = { 12, 11, 13, 5, 6, 7 };
+        sort( 0, arr.length - 1);
 
     }
 
