@@ -1,7 +1,7 @@
 package org.example;
 
-public class App 
-{
+public class DeviantMerge {
+
     public static void main( String[] args )
     {
         int [] arr = { 12, 11, 13, 5, 6, 7 };
@@ -61,8 +61,8 @@ public class App
         if (l < r) {
             int m =l+ (r-l)/2;
 
-            sort(arr, l, m);
             sort(arr, m + 1, r);
+            sort(arr, l, m);
             merge(arr, l, m, r);
         }
     }
