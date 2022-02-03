@@ -2,15 +2,10 @@ package org.example.interfaces;
 
 public class First {
     public static void main(String[] args) {
+
         System.out.println(digital_root(59));
 
         System.out.println(digital_root(1));
-      /*  System.out.println(digital_root(10));
-        System.out.println(digital_root(19));
-        System.out.println(digital_root(999));
-        System.out.println(digital_root(58));*/
-
-
     }
 
     public static int digital_root(int n) {
