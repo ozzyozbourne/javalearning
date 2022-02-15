@@ -14,7 +14,7 @@ public class Consume {
         */
 
         //get all the student objects wrapped in a list
-        Supplier<List<Student>> a = StudentDataBase::getAllStudents;
+            Supplier<List<Student>> a = StudentDataBase::getAllStudents;
 
         //define behavior
         Consumer<Student> a1 = student -> System.out.println(student.getName());
